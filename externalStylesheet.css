@@ -1,0 +1,122 @@
+/*Stylesheet can be used as an external Stylesheet for any coding*/
+h1{
+	color: midnightblue;
+	font-family: 'Rokkitt', serif;
+	/*background:lavenderblush;*/
+	font-size: 300%;
+	margin: 10px;
+	
+ }
+header{
+	/*background: lavenderblush;*/
+	text-align: center;
+	margin: -10px;
+	padding-bottom: 15px;
+	border-style: inset;
+     border-width: 10px;
+ }
+ footer{
+	/*background-color:lavenderblush;*/
+	height: 100px;
+	clear: both;
+     border-width: 5px;
+	border-style: ridge;
+     
+ }
+nav{
+	font-variant: initial;
+	font-size: 150%;
+    font-family: monospace, inherit, "Times New Roman";
+ }
+h2{
+	color: midnightblue;
+	background-color: ghostwhite;
+	font-family: 'Playfair Display', serif;
+	border-style: groove;
+	}
+body{
+	background: linear-gradient(#ba5370 0%, #f4e2d8 100%);
+	font-family: cursive;
+	margin: 4%;
+	font-size: 100%;
+ }
+details {
+	font-style: italic;
+	margin-bottom:3%;
+	}
+
+summary{
+	font-style: normal;
+	border-style: ridge;
+	width: 20%;
+
+ }
+footer{
+	/*background-color:lavenderblush;*/
+	height: 100px;
+	clear: both;
+ }
+ div
+{
+	width:27%;
+	margin-right: 2%;
+	display: inline-block;
+	float: left;
+}
+img{
+     width: 75px;
+}
+ 
+ /*THE below ANCHOR(a) TAG USES OPERATOR(^) WHICH can be USED 
+TO DEFINE LINKS by showing SPECIFIC VARIATION ex: font size,using colours;*/   
+    
+    a[href^="https://www.google.com"] {     
+    font-size: 30px;}  
+
+    /*THE below nav(a) TAG IS A SELECTOR WHICH can be USED 
+      TO DEFINE LINKS by showing VARIATION ex: using colours;*/
+
+nav a{
+      background: lavenderblush;
+      border-radius: 5px;
+      width: 18%;
+      display: inline-block;
+      border-style: outset;
+      border-width: 5px;
+      text-transform: uppercase;
+}  
+ a:hover {
+ 	color: magenta;
+ }             
+       /*GIVEN BELOW .main(.) IS A CLASS WHICH can be USED 
+         TO DEFINE LINKS by showing SPECIFIC VARIATION AMONGST
+         THE VARIATION SHOWN IN nav(a) tag ex: font size,using colours;*/
+
+ /*.main{
+ 	background: #0fff00;
+ 	font-style: italic;
+ }*/
+ 
+ #About{
+ 	border: 3px solid #000000;
+ 	margin: 5px 5px;
+
+}
+li{
+      list-style: none;
+ }
+ li:before{
+ 	content: "\2764";
+ }
+ header,footer{
+  background: linear-gradient(#ddd6f3 0%, #faaca8 100%);
+ }
+ .half {
+ 	width: 45%;
+ }
+ .full {
+ 	clear: both;
+ 	width: 60%;
+}
+
+
